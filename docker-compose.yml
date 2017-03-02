@@ -1,0 +1,6 @@
+api:
+  build: ./api
+  environment:
+    - RACK_ENV=development
+  ports:
+    - "3000:80"
